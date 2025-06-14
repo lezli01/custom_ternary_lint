@@ -1,14 +1,14 @@
 name: custom_ternary_lint
-description: A starting point for Dart libraries or applications.
+description: Custom linter to filter ternary operators.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/lezli01/custom_ternary_lint
 
 environment:
-  sdk: ^3.8.0
+  sdk: '>=3.0.0 <4.0.0'
 
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+  custom_lint_builder: ^0.7.5
+  analyzer: ^7.4.5
 
 dev_dependencies:
   lints: ^5.0.0
